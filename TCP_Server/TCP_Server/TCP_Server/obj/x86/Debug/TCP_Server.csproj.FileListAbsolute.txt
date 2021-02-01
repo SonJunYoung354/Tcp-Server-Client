@@ -24,3 +24,12 @@ D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Server\TCP_Server\TCP_
 D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csproj.CoreCompileInputs.cache
 D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.exe
 D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.pdb
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csprojAssemblyReference.cache
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Form1.resources
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Properties.Resources.resources
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csproj.GenerateResource.cache
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csproj.CoreCompileInputs.cache
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.exe
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.pdb
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb

@@ -32,7 +32,7 @@ namespace TCP_Server
             InitializeComponent();
         }
 
-        private void bt_open_Click(object sender, EventArgs e)                                          
+        private void bt_open_Click(object sender, EventArgs e)
         {
             try
             {
@@ -203,7 +203,7 @@ namespace TCP_Server
         }
 
         //파일 전송하는 이벤트
-        private void button1_Click(object sender, EventArgs e)
+        private void File_Click(object sender, EventArgs e)
         {
             Socket mysocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
@@ -237,5 +237,12 @@ namespace TCP_Server
         
             
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
