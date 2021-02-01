@@ -1,0 +1,27 @@
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\bin\Debug\TCP_Client.exe
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\bin\Debug\TCP_Client.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form1.resources
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.exe
+c:\users\administrator\documents\visual studio 2010\Projects\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.pdb
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.exe
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.pdb
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\bin\Debug\TCP_Client.exe
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\bin\Debug\TCP_Client.pdb
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form1.resources
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.csproj.GenerateResource.Cache
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\bin\Debug\TCP_Client.exe
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\bin\Debug\TCP_Client.pdb
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.csprojAssemblyReference.cache
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form1.resources
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Properties.Resources.resources
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.csproj.GenerateResource.cache
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.csproj.CoreCompileInputs.cache
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.exe
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.pdb
+D:\학업\4학년\네트워크프로그래밍\기말3\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form2.resources
