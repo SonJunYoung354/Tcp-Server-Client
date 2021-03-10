@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace TCP_Client
 {
@@ -29,8 +30,28 @@ namespace TCP_Client
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            
+            string myConnection = "datasource=localhost;port=3305;username=root;password=root";
+            MySqlConnection myConn = new MySqlConnection(myConnection);
+            MySqlDataAdapter myDataADapter = new MySqlDataAdapter();
+            myDataADapter.SelectCommand = new MySqlCommand("SELECT * database.edata;", myConn);
+            MySqlCommandBuilder cb = new MySqlCommandBuilder(myDataADapter);
+            myConn.Open();
+            DataSet ds = new DataSet();
+            MessageBox.Show("연결되었습니다");
+            myConn.Close();
+        }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
 
-
+    }
     }
 }

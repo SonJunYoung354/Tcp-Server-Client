@@ -33,3 +33,4 @@ C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_S
 C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.exe
 C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.pdb
 C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
+C:\Users\준영\Desktop\Tcp\TCP_Server\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe.config
