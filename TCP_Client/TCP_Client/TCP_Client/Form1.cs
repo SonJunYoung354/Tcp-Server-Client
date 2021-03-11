@@ -676,5 +676,12 @@ namespace TCP_Client
             rea.Close();
             mysocket.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
     }
 }
