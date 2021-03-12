@@ -12,6 +12,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
+using MySql.Data.MySqlClient;
 
 
 
@@ -680,6 +681,31 @@ namespace TCP_Client
         private void button1_Click(object sender, EventArgs e)
         {
 
+
+            Form3 a1 = new Form3();
+            // Form2 Show
+            a1.Show();
+
+
+            /*MySqlConnection connection = new MySqlConnection("Server=localhost;Database=demo;port=3305;Uid=root;Pwd=root;");
+
+
+            try
+            {
+                string myCon = "datasource=localhost;port=3305;username=root;password=root";
+                MySqlConnection myConn = new MySqlConnection(myCon);
+                MySqlDataAdapter mydata = new MySqlDataAdapter();
+                mydata.SelectCommand = new MySqlCommand("SELECT * database.demo;", myConn);
+                MySqlCommandBuilder cb = new MySqlCommandBuilder(mydata);
+                DataSet ds = new DataSet();
+                MessageBox.Show("연결되었습니다");
+                myConn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           */
 
 
         }

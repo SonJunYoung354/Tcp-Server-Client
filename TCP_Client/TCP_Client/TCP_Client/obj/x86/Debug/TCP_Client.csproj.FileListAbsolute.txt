@@ -61,4 +61,10 @@ C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\System.Bu
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\System.Memory.xml
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Login.resources
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\Dapper.dll
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\MetroFramework.Design.dll
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\MetroFramework.dll
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\Dapper.xml
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.frmLogin.resources
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form3.resources
