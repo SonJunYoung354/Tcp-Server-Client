@@ -44,11 +44,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(667, 345);
+            this.button2.Location = new System.Drawing.Point(667, 392);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(110, 23);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "DB 연결 테스트";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -64,7 +64,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(667, 289);
+            this.button4.Location = new System.Drawing.Point(647, 289);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 6;
@@ -87,8 +87,8 @@
             this.txtUserName.CustomButton.UseSelectable = true;
             this.txtUserName.CustomButton.Visible = false;
             this.txtUserName.Lines = new string[] {
-        "metroTextBox1"};
-            this.txtUserName.Location = new System.Drawing.Point(200, 75);
+        "이름"};
+            this.txtUserName.Location = new System.Drawing.Point(197, 184);
             this.txtUserName.MaxLength = 32767;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.PasswordChar = '\0';
@@ -99,7 +99,7 @@
             this.txtUserName.ShortcutsEnabled = true;
             this.txtUserName.Size = new System.Drawing.Size(125, 23);
             this.txtUserName.TabIndex = 7;
-            this.txtUserName.Text = "metroTextBox1";
+            this.txtUserName.Text = "이름";
             this.txtUserName.UseSelectable = true;
             this.txtUserName.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtUserName.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -119,8 +119,8 @@
             this.txtPassword.CustomButton.UseSelectable = true;
             this.txtPassword.CustomButton.Visible = false;
             this.txtPassword.Lines = new string[] {
-        "metroTextBox1"};
-            this.txtPassword.Location = new System.Drawing.Point(202, 114);
+        "패스워드"};
+            this.txtPassword.Location = new System.Drawing.Point(199, 223);
             this.txtPassword.MaxLength = 32767;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '\0';
@@ -131,7 +131,7 @@
             this.txtPassword.ShortcutsEnabled = true;
             this.txtPassword.Size = new System.Drawing.Size(125, 23);
             this.txtPassword.TabIndex = 7;
-            this.txtPassword.Text = "metroTextBox1";
+            this.txtPassword.Text = "패스워드";
             this.txtPassword.UseSelectable = true;
             this.txtPassword.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtPassword.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -139,20 +139,22 @@
             // chkRememberMe
             // 
             this.chkRememberMe.AutoSize = true;
-            this.chkRememberMe.Location = new System.Drawing.Point(200, 143);
+            this.chkRememberMe.Location = new System.Drawing.Point(197, 265);
             this.chkRememberMe.Name = "chkRememberMe";
-            this.chkRememberMe.Size = new System.Drawing.Size(114, 15);
+            this.chkRememberMe.Size = new System.Drawing.Size(86, 15);
             this.chkRememberMe.TabIndex = 8;
-            this.chkRememberMe.Text = "metroCheckBox1";
+            this.chkRememberMe.Text = "아이디 저장";
             this.chkRememberMe.UseSelectable = true;
+            this.chkRememberMe.CheckedChanged += new System.EventHandler(this.chkRememberMe_CheckedChanged);
+            this.chkRememberMe.Click += new System.EventHandler(this.chkRememberMe_Click);
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(372, 75);
+            this.metroButton1.Location = new System.Drawing.Point(370, 184);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(100, 62);
             this.metroButton1.TabIndex = 9;
-            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.Text = "로그인";
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
@@ -190,6 +192,7 @@
             this.Controls.Add(this.button2);
             this.Name = "frmLogin";
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
             this.ResumeLayout(false);

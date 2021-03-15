@@ -22,5 +22,17 @@ namespace TCP_Client.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LoginIDsave {
+            get {
+                return ((string)(this["LoginIDsave"]));
+            }
+            set {
+                this["LoginIDsave"] = value;
+            }
+        }
     }
 }

@@ -61,10 +61,13 @@ namespace TCP_Client
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //칼럼에 추가하는 커리문 insertQuery
+
+            Form3 a1 = new Form3();
+            a1.Show();
+            /*//칼럼에 추가하는 커리문 insertQuery
             string insertQuery = "INSERT INTO new_table(name,id) VALUES('" + NameBox.Text + "'," + AgeBox.Text + ")";
             /* 추가한다    테이블 member_tb 테이블에  name 과 age 라는 항목의 값을 그값은 NameBox.Text 와  AgeBox.Text 에입력
-             된 값이다*/
+             된 값이다
 
             connection.Open();
             MySqlCommand command = new MySqlCommand(insertQuery, connection);
@@ -87,7 +90,7 @@ namespace TCP_Client
             }
 
 
-                   //connection.Close();
+            //connection.Close();*/
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -171,12 +174,13 @@ namespace TCP_Client
                         {
                             this.Hide();
                             frm.ShowDialog();
+                            
                         }
                     }
                     else
                     {
-                        MetroFramework.MetroMessageBox.Show(this, "아이디 또는 비밀번호 확인해주세요");
-                        MetroFramework.MetroMessageBox.Show(this, "Your name and password don't match.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("아이디 또는 비밀번호 확인해주세요");
+                        //MetroFramework.MetroMessageBox.Show(this, "Your name and password don't match.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 conn.Close();
@@ -190,7 +194,46 @@ namespace TCP_Client
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
+            
+            
+            
+        }
+
+        private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
+        {
+           
           
+        }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void chkRememberMe_Click(object sender, EventArgs e)
+        {
+            if (this.txtUserName.Text == "")
+            {
+                MessageBox.Show("로그인 아이디를 입력하세요", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                this.txtUserName.Focus();
+            }
+            else if (this.txtPassword.Text == "")
+            {
+                MessageBox.Show("로그인 비밀번호를 입력하세요", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                this.txtPassword.Focus();
+            }
+
+            else
+            {
+                if(chkRememberMe.Checked)
+                {
+                    txtUserName.Text = Properties.Settings.Default.LoginIDsave;
+                    Properties.Settings.Default.LoginIDsave = txtUserName.Text;
+                    Properties.Settings.Default.Save();
+                   
+                    
+                }
+            }
         }
     }
    }
