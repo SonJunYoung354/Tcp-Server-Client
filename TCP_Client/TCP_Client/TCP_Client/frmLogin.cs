@@ -21,10 +21,19 @@ namespace TCP_Client
         
 
         MySqlConnection connection = new MySqlConnection("Server=localhost;Database=demo;port=3305;Uid=root;Pwd=root;");
-       
+
+        public delegate void DataPush(string value);
+        public DataPush dataSean;
+
+        void frm2_WriteTextEvent(string text)
+
+        {
+
+            this.txtUserName.Text = text;
+        }
 
 
-        public frmLogin()
+            public frmLogin()
         {
             InitializeComponent();
 
@@ -93,7 +102,7 @@ namespace TCP_Client
             //connection.Close();*/
         }
 
-        private void button4_Click(object sender, EventArgs e)
+         void Login()
         {
             if (String.IsNullOrEmpty(txtUserName.Text))
             {
@@ -124,6 +133,8 @@ namespace TCP_Client
                         {
                             this.Hide();
                             frm.ShowDialog();
+                            
+                            
                         }
                     }
                     else
@@ -143,7 +154,7 @@ namespace TCP_Client
 
 
 
-        
+
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
@@ -172,9 +183,13 @@ namespace TCP_Client
                     {
                         using (Form1 frm = new Form1())
                         {
+                            frm.WriteTextEvent += new Form1.TextEventHandler(frm2_WriteTextEvent);  // 델리게이트를 통한 이벤트 등록
+
+                            frm.received2(txtUserName.Text); //Form2로 데이터 전달
                             this.Hide();
                             frm.ShowDialog();
                             
+
                         }
                     }
                     else
@@ -182,6 +197,7 @@ namespace TCP_Client
                         MessageBox.Show("아이디 또는 비밀번호 확인해주세요");
                         //MetroFramework.MetroMessageBox.Show(this, "Your name and password don't match.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
+                    
                 }
                 conn.Close();
             }
@@ -234,6 +250,17 @@ namespace TCP_Client
                     
                 }
             }
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+
+            Form1 frm2 = new Form1(); // 버튼을 누를때마다 폼을 생성한다.
+
+            frm2.Show();
+            frm2.WriteTextEvent += new Form1.TextEventHandler(frm2_WriteTextEvent);  // 델리게이트를 통한 이벤트 등록
+
+            frm2.received2(txtUserName.Text); //Form2로 데이터 전달
         }
     }
    }

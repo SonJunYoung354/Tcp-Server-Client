@@ -32,9 +32,7 @@
             this.PwBox = new MetroFramework.Controls.MetroTextBox();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.IDBox = new MetroFramework.Controls.MetroTextBox();
-            this.id = new MetroFramework.Controls.MetroTextBox();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.PW = new MetroFramework.Controls.MetroTextBox();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             this.SuspendLayout();
             // 
             // NameBox
@@ -53,7 +51,7 @@
             this.NameBox.CustomButton.Visible = false;
             this.NameBox.Lines = new string[] {
         "ID"};
-            this.NameBox.Location = new System.Drawing.Point(202, 63);
+            this.NameBox.Location = new System.Drawing.Point(209, 129);
             this.NameBox.MaxLength = 32767;
             this.NameBox.Name = "NameBox";
             this.NameBox.PasswordChar = '\0';
@@ -85,7 +83,7 @@
             this.PwBox.CustomButton.Visible = false;
             this.PwBox.Lines = new string[] {
         "Pw"};
-            this.PwBox.Location = new System.Drawing.Point(202, 123);
+            this.PwBox.Location = new System.Drawing.Point(209, 200);
             this.PwBox.MaxLength = 32767;
             this.PwBox.Name = "PwBox";
             this.PwBox.PasswordChar = '\0';
@@ -103,7 +101,7 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(434, 93);
+            this.metroButton2.Location = new System.Drawing.Point(441, 170);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(169, 85);
             this.metroButton2.TabIndex = 2;
@@ -127,7 +125,7 @@
             this.IDBox.CustomButton.Visible = false;
             this.IDBox.Lines = new string[] {
         "Name"};
-            this.IDBox.Location = new System.Drawing.Point(202, 179);
+            this.IDBox.Location = new System.Drawing.Point(209, 256);
             this.IDBox.MaxLength = 32767;
             this.IDBox.Name = "IDBox";
             this.IDBox.PasswordChar = '\0';
@@ -143,89 +141,24 @@
             this.IDBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.IDBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // id
+            // metroCheckBox1
             // 
-            // 
-            // 
-            // 
-            this.id.CustomButton.Image = null;
-            this.id.CustomButton.Location = new System.Drawing.Point(164, 1);
-            this.id.CustomButton.Name = "";
-            this.id.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.id.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.id.CustomButton.TabIndex = 1;
-            this.id.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.id.CustomButton.UseSelectable = true;
-            this.id.CustomButton.Visible = false;
-            this.id.Lines = new string[] {
-        "Name"};
-            this.id.Location = new System.Drawing.Point(186, 351);
-            this.id.MaxLength = 32767;
-            this.id.Name = "id";
-            this.id.PasswordChar = '\0';
-            this.id.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.id.SelectedText = "";
-            this.id.SelectionLength = 0;
-            this.id.SelectionStart = 0;
-            this.id.ShortcutsEnabled = true;
-            this.id.Size = new System.Drawing.Size(186, 23);
-            this.id.TabIndex = 1;
-            this.id.Text = "Name";
-            this.id.UseSelectable = true;
-            this.id.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.id.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroButton1
-            // 
-            this.metroButton1.Location = new System.Drawing.Point(459, 324);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(169, 85);
-            this.metroButton1.TabIndex = 2;
-            this.metroButton1.Text = "가입";
-            this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton2_Click);
-            // 
-            // PW
-            // 
-            // 
-            // 
-            // 
-            this.PW.CustomButton.Image = null;
-            this.PW.CustomButton.Location = new System.Drawing.Point(164, 1);
-            this.PW.CustomButton.Name = "";
-            this.PW.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.PW.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.PW.CustomButton.TabIndex = 1;
-            this.PW.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.PW.CustomButton.UseSelectable = true;
-            this.PW.CustomButton.Visible = false;
-            this.PW.Lines = new string[] {
-        "Name"};
-            this.PW.Location = new System.Drawing.Point(186, 386);
-            this.PW.MaxLength = 32767;
-            this.PW.Name = "PW";
-            this.PW.PasswordChar = '\0';
-            this.PW.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.PW.SelectedText = "";
-            this.PW.SelectionLength = 0;
-            this.PW.SelectionStart = 0;
-            this.PW.ShortcutsEnabled = true;
-            this.PW.Size = new System.Drawing.Size(186, 23);
-            this.PW.TabIndex = 1;
-            this.PW.Text = "Name";
-            this.PW.UseSelectable = true;
-            this.PW.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.PW.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroCheckBox1.AutoSize = true;
+            this.metroCheckBox1.Location = new System.Drawing.Point(209, 158);
+            this.metroCheckBox1.Name = "metroCheckBox1";
+            this.metroCheckBox1.Size = new System.Drawing.Size(71, 15);
+            this.metroCheckBox1.TabIndex = 4;
+            this.metroCheckBox1.Text = "중복검사";
+            this.metroCheckBox1.UseSelectable = true;
+            this.metroCheckBox1.CheckedChanged += new System.EventHandler(this.metroCheckBox1_CheckedChanged);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.metroButton1);
+            this.Controls.Add(this.metroCheckBox1);
             this.Controls.Add(this.metroButton2);
-            this.Controls.Add(this.PW);
-            this.Controls.Add(this.id);
             this.Controls.Add(this.IDBox);
             this.Controls.Add(this.PwBox);
             this.Controls.Add(this.NameBox);
@@ -234,6 +167,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -242,8 +176,6 @@
         private MetroFramework.Controls.MetroTextBox PwBox;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroTextBox IDBox;
-        private MetroFramework.Controls.MetroTextBox id;
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroTextBox PW;
+        private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
     }
 }

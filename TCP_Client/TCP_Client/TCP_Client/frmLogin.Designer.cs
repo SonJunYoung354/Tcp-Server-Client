@@ -37,8 +37,7 @@
             this.chkRememberMe = new MetroFramework.Controls.MetroCheckBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager(this.components);
-            this.NameBox = new System.Windows.Forms.TextBox();
-            this.AgeBox = new System.Windows.Forms.TextBox();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,23 +53,22 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(580, 174);
+            this.button3.Location = new System.Drawing.Point(307, 255);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 47);
+            this.button3.Size = new System.Drawing.Size(104, 25);
             this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
+            this.button3.Text = "회원가입";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(647, 289);
+            this.button4.Location = new System.Drawing.Point(679, 363);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 6;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txtUserName
             // 
@@ -150,7 +148,7 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(370, 184);
+            this.metroButton1.Location = new System.Drawing.Point(353, 184);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(100, 62);
             this.metroButton1.TabIndex = 9;
@@ -162,27 +160,22 @@
             // 
             this.metroStyleManager1.Owner = null;
             // 
-            // NameBox
+            // metroButton2
             // 
-            this.NameBox.Location = new System.Drawing.Point(323, 289);
-            this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(100, 21);
-            this.NameBox.TabIndex = 10;
-            // 
-            // AgeBox
-            // 
-            this.AgeBox.Location = new System.Drawing.Point(323, 347);
-            this.AgeBox.Name = "AgeBox";
-            this.AgeBox.Size = new System.Drawing.Size(100, 21);
-            this.AgeBox.TabIndex = 11;
+            this.metroButton2.Location = new System.Drawing.Point(586, 171);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(100, 62);
+            this.metroButton2.TabIndex = 9;
+            this.metroButton2.Text = "로그인";
+            this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.AgeBox);
-            this.Controls.Add(this.NameBox);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.chkRememberMe);
             this.Controls.Add(this.txtPassword);
@@ -209,7 +202,6 @@
         private MetroFramework.Controls.MetroCheckBox chkRememberMe;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Components.MetroStyleManager metroStyleManager1;
-        private System.Windows.Forms.TextBox NameBox;
-        private System.Windows.Forms.TextBox AgeBox;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }

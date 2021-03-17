@@ -21,9 +21,15 @@ namespace TCP_Client
     public partial class Form1 : Form
     {
 
+        public delegate void TextEventHandler(string text);
 
-       
+        public event TextEventHandler WriteTextEvent;
+
+
+
+
         
+
 
         // 각종 전역 변수 선언
 
@@ -32,6 +38,7 @@ namespace TCP_Client
         StreamWriter _stwriter;
         Thread _thread_receive;
         TcpClient _client;
+       
         // 서버 오픈 여부 확인 디폴트 = Flase;
         bool _connect_flag = false;
         // 메소드를 참조하는 델리 게이트 변수 선언
@@ -55,9 +62,17 @@ namespace TCP_Client
                 Console.WriteLine("DoThread1 : {0}", i);
             }
         }
-        
 
 
+        public void received2(string str)
+
+        {
+
+            this.metroTextBox1.Text = str;
+
+            metroTextBox1.Invalidate();
+
+        }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
@@ -281,6 +296,14 @@ namespace TCP_Client
             //현재 시간 날짜 시 분 초 생성 라벨
             label4.Text = DateTime.Now.ToString("yyyy-MM-dd");
             label5.Text = DateTime.Now.ToString("HH:mm");
+
+
+            
+
+
+
+
+
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -634,6 +657,7 @@ namespace TCP_Client
             textBox2.Text = ad2;
             textBox3.Text = localIP;
         }
+
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
