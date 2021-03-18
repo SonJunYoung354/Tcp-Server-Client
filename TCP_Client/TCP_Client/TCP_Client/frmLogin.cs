@@ -252,16 +252,7 @@ namespace TCP_Client
             }
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-
-            Form1 frm2 = new Form1(); // 버튼을 누를때마다 폼을 생성한다.
-
-            frm2.Show();
-            frm2.WriteTextEvent += new Form1.TextEventHandler(frm2_WriteTextEvent);  // 델리게이트를 통한 이벤트 등록
-
-            frm2.received2(txtUserName.Text); //Form2로 데이터 전달
-        }
+       
     }
    }
 

@@ -83,7 +83,7 @@
             this.PwBox.CustomButton.Visible = false;
             this.PwBox.Lines = new string[] {
         "Pw"};
-            this.PwBox.Location = new System.Drawing.Point(209, 200);
+            this.PwBox.Location = new System.Drawing.Point(209, 179);
             this.PwBox.MaxLength = 32767;
             this.PwBox.Name = "PwBox";
             this.PwBox.PasswordChar = '\0';
@@ -101,7 +101,7 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(441, 170);
+            this.metroButton2.Location = new System.Drawing.Point(437, 145);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(169, 85);
             this.metroButton2.TabIndex = 2;
@@ -125,7 +125,7 @@
             this.IDBox.CustomButton.Visible = false;
             this.IDBox.Lines = new string[] {
         "Name"};
-            this.IDBox.Location = new System.Drawing.Point(209, 256);
+            this.IDBox.Location = new System.Drawing.Point(209, 217);
             this.IDBox.MaxLength = 32767;
             this.IDBox.Name = "IDBox";
             this.IDBox.PasswordChar = '\0';

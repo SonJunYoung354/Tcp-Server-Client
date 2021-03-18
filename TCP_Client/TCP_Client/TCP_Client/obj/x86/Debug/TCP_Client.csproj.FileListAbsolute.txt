@@ -68,3 +68,5 @@ C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\MetroFram
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\Dapper.xml
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.frmLogin.resources
 C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\obj\x86\Debug\TCP_Client.Form3.resources
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\ClassLibrary1.dll
+C:\Users\준영\Desktop\Tcp\TCP_Client\TCP_Client\TCP_Client\bin\Debug\ClassLibrary1.pdb

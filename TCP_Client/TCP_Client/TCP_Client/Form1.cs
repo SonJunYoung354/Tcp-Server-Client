@@ -68,8 +68,8 @@ namespace TCP_Client
 
         {
 
-            this.metroTextBox1.Text = str;
-
+            this.metroTextBox1.Text = str + "환영합니다";
+            
             metroTextBox1.Invalidate();
 
         }
