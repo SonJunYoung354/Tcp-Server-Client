@@ -16,7 +16,7 @@ namespace TCP_Client
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // 프로그램 실행시 변경될 메인 폼
-            Application.Run(new Form2());
+            Application.Run(new Form1());
         }
     }
 }

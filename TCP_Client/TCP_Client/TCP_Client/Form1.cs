@@ -68,7 +68,7 @@ namespace TCP_Client
 
         {
 
-            this.metroTextBox1.Text = str + "환영합니다";
+            this.metroTextBox1.Text = str += "환영합니다";
             
             metroTextBox1.Invalidate();
 
@@ -730,6 +730,18 @@ namespace TCP_Client
                 MessageBox.Show(ex.Message);
             }
            */
+
+
+        }
+
+        private void pictureBox10_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Form a2 = new frmLogin();
+            a2.Show();
+            // 현재 어플리케이션 종료후 새 인스턴스 시작
+            Application.Restart();
+ 
 
 
         }

@@ -210,9 +210,10 @@ namespace TCP_Client
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            
-            
-            
+            metroTextBox1.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            metroTextBox2.Text = DateTime.Now.ToString("HH:mm");
+
+
         }
 
         private void chkRememberMe_CheckedChanged(object sender, EventArgs e)

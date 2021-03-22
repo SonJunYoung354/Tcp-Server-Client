@@ -126,6 +126,11 @@ namespace TCP_Client
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            metroTextBox1.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            metroTextBox2.Text = DateTime.Now.ToString("HH:mm");
+
+
+
             MySqlConnection connection = new MySqlConnection("Server=localhost;Database=demo;port=3305;Uid=root;Pwd=root;");
 
 
@@ -159,7 +164,12 @@ namespace TCP_Client
 
         }
 
-       
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form a1 = new frmLogin();
+            a1.Show();
+
+        }
     }
 }
 
