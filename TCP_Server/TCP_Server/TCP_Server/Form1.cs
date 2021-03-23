@@ -240,7 +240,8 @@ namespace TCP_Server
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label4.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            label5.Text = DateTime.Now.ToString("HH:mm");
         }
 
        
