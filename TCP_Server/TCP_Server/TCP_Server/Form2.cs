@@ -80,7 +80,7 @@ namespace TCP_Server
 
             //mysql 연동
             MySqlConnection conn;
-            string strconn = "Server=localhost;Database=demo;port=3305;Uid=root;Pwd=root;";
+            string strconn = "Server=localhost;Database=user_sch;port=3305;Uid=root;Pwd=root;";
             conn = new MySqlConnection(strconn);
 
             try
@@ -117,6 +117,12 @@ namespace TCP_Server
                 MetroFramework.MetroMessageBox.Show(this, ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             conn.Close();
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            Form3 a1 = new Form3();
+            a1.Show();
         }
     }
    }

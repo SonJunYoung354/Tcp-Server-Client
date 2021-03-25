@@ -31,6 +31,7 @@
             this.txtUserName = new MetroFramework.Controls.MetroTextBox();
             this.txtPassword = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // txtUserName
@@ -103,15 +104,26 @@
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(102, 75);
             this.metroButton1.TabIndex = 1;
-            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.Text = "로그인";
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(399, 234);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(102, 23);
+            this.metroButton2.TabIndex = 2;
+            this.metroButton2.Text = "pw찾기";
+            this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUserName);
@@ -127,5 +139,6 @@
         private MetroFramework.Controls.MetroTextBox txtUserName;
         private MetroFramework.Controls.MetroTextBox txtPassword;
         private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }
