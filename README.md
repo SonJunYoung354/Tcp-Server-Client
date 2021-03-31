@@ -12,4 +12,5 @@
 
 ## 화면 이미지
 + 메인 화면
+
 <img src="https://github.com/SonJunYoung354/Tcp-Server-Client/blob/main/img/main.PNG" height="300px" title="메인 화면" alt="RubberDuck"></img><br/>
