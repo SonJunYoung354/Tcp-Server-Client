@@ -11,4 +11,4 @@
 - Tcp 관리자 로그인 화면 . 서버가 포트를 열어서 서버  클라이언트 채팅 기능
 
 ## 화면 이미지
-<img src="https://github.com/SonJunYoung354/Tcp-Server-Client/blob/main/img/main.PNG" height="300px" title="메인 화면" alt="RubberDuck"></img><br/>
+<img src="https://github.com/SonJunYoung354/Tcp-Server-Client/blob/main/img/Main.PNG" height="300px" title="메인 화면" alt="RubberDuck"></img><br/>
