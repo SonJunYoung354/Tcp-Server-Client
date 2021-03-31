@@ -13,11 +13,14 @@ using MySql.Data.MySqlClient;
 
 
 
+
 namespace TCP_Client
 {
-   
+
+    
     public partial class frmLogin : MetroFramework.Forms.MetroForm
     {
+
         
 
         MySqlConnection connection = new MySqlConnection("Server=localhost;Database=demo;port=3305;Uid=root;Pwd=root;");
@@ -36,6 +39,8 @@ namespace TCP_Client
             public frmLogin()
         {
             InitializeComponent();
+
+           
 
         }
 
@@ -252,6 +257,8 @@ namespace TCP_Client
                 }
             }
         }
+
+       
 
        
     }
